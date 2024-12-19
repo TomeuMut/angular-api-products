@@ -1,0 +1,20 @@
+.c-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+.section-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.wrapper {
+  width: 100%;
+  flex: 1 1 300px;
+}
+.c-product {
+  width: 100%;
+}

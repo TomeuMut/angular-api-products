@@ -1,0 +1,6 @@
+<input [(ngModel)]="searchText" class="c-input" placeholder="Buscar Actividades...">
+<div class="section-products">
+  <div class="wrapper"  *ngFor="let product of searchProducts">
+    <app-product-card class="c-product" [product]="product"></app-product-card>
+  </div>
+</div>
