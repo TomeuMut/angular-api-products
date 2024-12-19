@@ -1,0 +1,9 @@
+
+<div class="c-product-card">
+  <img *ngIf="product.media && product.media.length > 0" [src]="'https://api.tour2b.hub2b.travel' + product.media[0].contentUrl" class="c-product-card-img" alt="Product">
+  <div class="c-product-card-body">
+    <h5 class="c-product-card-title">{{ product.title }}</h5>
+    <p *ngIf="product.shortDescription" class="c-product-card-text">{{ product.shortDescription }}</p>
+    <p *ngIf="product.price" class="c-product-card-price"><strong>Precio: </strong>{{ product.price }}€</p>
+  </div>
+</div>
